@@ -2,6 +2,7 @@ package adam.projekty.dao;
 
 import adam.projekty.model.Produkt;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -12,6 +13,7 @@ public class ProductDao {
 
     public List<Produkt> pobierzProdukty() {
         Produkt product1 = new Produkt();
+        product1.setProduktId("1");
         product1.setNazwaProduktu("Gitara");
         product1.setKategoriaProduktu("Instrument");
         product1.setOpisProduktu("Jakas!");
@@ -22,6 +24,7 @@ public class ProductDao {
         product1.setWykonawcaProduktu("Znawca");
 
         Produkt product2 = new Produkt();
+        product2.setProduktId("2");
         product2.setNazwaProduktu("Record1");
         product2.setKategoriaProduktu("Record");
         product2.setOpisProduktu("Najlepszy Mix kawalkoww!");
@@ -32,6 +35,7 @@ public class ProductDao {
         product2.setWykonawcaProduktu("EMI");
 
         Produkt product3 = new Produkt();
+        product3.setProduktId("3");
         product3.setNazwaProduktu("Record2");
         product3.setKategoriaProduktu("Record");
         product3.setOpisProduktu("Inny Mix");
@@ -49,4 +53,16 @@ public class ProductDao {
 
         return listaProduktow;
     }
+    public Produkt pobierzProduktPoId(String produktId) throws IOException {
+        for (Produkt produkt:listaProduktow)
+        {
+
+                if(produkt.getProduktId().equals(produktId)) {
+                    return produkt;
+                }
+        }
+        throw new IOException("Nie znaleziono produktu");
+    }
+
+
 }

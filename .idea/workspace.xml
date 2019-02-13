@@ -6,7 +6,21 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3497051a-743e-49e5-9f37-a1cd48137e96" name="Default Changelist" comment="" />
+    <list default="true" id="3497051a-743e-49e5-9f37-a1cd48137e96" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/produktDetail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SklepSpring_war_exploded/WEB-INF/classes/adam/projekty/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SklepSpring_war_exploded/WEB-INF/classes/adam/projekty/controller/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SklepSpring_war_exploded/WEB-INF/classes/adam/projekty/dao/ProductDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SklepSpring_war_exploded/WEB-INF/classes/adam/projekty/dao/ProductDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SklepSpring_war_exploded/WEB-INF/classes/adam/projekty/model/Produkt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SklepSpring_war_exploded/WEB-INF/classes/adam/projekty/model/Produkt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SklepSpring_war_exploded/WEB-INF/views/produktLista.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SklepSpring_war_exploded/WEB-INF/views/produktLista.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adam/projekty/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adam/projekty/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adam/projekty/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adam/projekty/dao/ProductDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adam/projekty/model/Produkt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adam/projekty/model/Produkt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/produktLista.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/produktLista.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/adam/projekty/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/adam/projekty/controller/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/adam/projekty/dao/ProductDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/adam/projekty/dao/ProductDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/adam/projekty/model/Produkt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/adam/projekty/model/Produkt.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,38 +34,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/produktLista.jsp">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/produktDetail.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/adam/projekty/controller/HomeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/adam/projekty/dao/ProductDao.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="544">
-              <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/header.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1088">
-              <caret line="64" selection-start-line="64" selection-end-line="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/footer.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="48" column="63" selection-start-line="48" selection-start-column="63" selection-end-line="48" selection-end-column="63" />
+              <caret line="47" column="49" lean-forward="true" selection-start-line="47" selection-start-column="49" selection-end-line="47" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -83,13 +97,14 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productList.jsp" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/adam/projekty/model/Product.java" />
-        <option value="$PROJECT_DIR$/src/main/java/adam/projekty/dao/ProductDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/adam/projekty/controller/HomeController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/adam/projekty/model/Produkt.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/footer.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/adam/projekty/model/Produkt.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/produktLista.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/adam/projekty/controller/HomeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/adam/projekty/dao/ProductDao.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/produktDetail.jsp" />
       </list>
     </option>
   </component>
@@ -118,7 +133,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="222" />
     <option name="y" value="24" />
     <option name="width" value="1668" />
@@ -130,6 +145,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -235,13 +251,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550009272975" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550019860162" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -252,17 +267,18 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.postfix.templates" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\ProjektyInteliJ\Spring\SklepSpring\src\main\java\adam\projekty" />
-      <recent name="E:\ProjektyInteliJ\Spring\SklepSpring" />
-      <recent name="E:\ProjektyInteliJ\Spring\SklepSpring\src\main\webapp" />
-      <recent name="E:\ProjektyInteliJ\Spring\SklepSpring\src\main\webapp\WEB-INF" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\ProjektyInteliJ\Spring\SklepSpring\src\main\webapp\WEB-INF\views\template" />
       <recent name="E:\ProjektyInteliJ\Spring\SklepSpring\src\main\webapp\WEB-INF\resources\js" />
       <recent name="E:\ProjektyInteliJ\Spring\SklepSpring\src\main\webapp\WEB-INF\resources\fonts" />
       <recent name="E:\ProjektyInteliJ\Spring\SklepSpring\src\main\webapp\WEB-INF\resources\css" />
+      <recent name="E:\ProjektyInteliJ\Spring\SklepSpring\src\main\webapp\WEB-INF" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ProjektyInteliJ\Spring\SklepSpring\src\main\webapp\WEB-INF\views" />
+      <recent name="E:\ProjektyInteliJ\Spring\SklepSpring\src\main\java\adam\projekty" />
+      <recent name="E:\ProjektyInteliJ\Spring\SklepSpring" />
+      <recent name="E:\ProjektyInteliJ\Spring\SklepSpring\src\main\webapp" />
       <recent name="E:\ProjektyInteliJ\Spring\SklepSpring\src\main\webapp\WEB-INF" />
     </key>
   </component>
@@ -379,17 +395,21 @@
       <workItem from="1550007549915" duration="1776000" />
       <workItem from="1550009374990" duration="903000" />
       <workItem from="1550011321702" duration="721000" />
+      <workItem from="1550015890848" duration="2061000" />
+      <workItem from="1550018265954" duration="1763000" />
+      <workItem from="1550020103774" duration="1837000" />
+      <workItem from="1550022002582" duration="1284000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22442000" />
+    <option name="totallyTimeSpent" value="29387000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="222" y="24" width="1668" height="938" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30783582" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1684435" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -399,7 +419,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24918744" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.14409535" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -412,13 +432,13 @@
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Application Servers" order="14" weight="0.32936078" />
-      <window_info anchor="bottom" id="Messages" order="15" weight="0.18851571" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.2611051" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.10199005" />
+      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.08742005" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
@@ -436,20 +456,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/dispatcher-servlet.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/web.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/adam/projekty/dao/ProduktDao.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/adam/projekty/controller/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="30" lean-forward="true" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/adam/projekty/dao/ProductDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="821">
-          <caret line="49" column="29" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -471,23 +477,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/adam/projekty/model/Produkt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/produktLista.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/header.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
+        <state relative-caret-position="801">
           <caret line="64" selection-start-line="64" selection-end-line="64" />
         </state>
       </provider>
@@ -501,8 +493,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
+        <state relative-caret-position="648">
           <caret line="48" column="63" selection-start-line="48" selection-start-column="63" selection-end-line="48" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/adam/projekty/model/Produkt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/produktLista.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/adam/projekty/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/adam/projekty/dao/ProductDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="47" column="49" lean-forward="true" selection-start-line="47" selection-start-column="49" selection-end-line="47" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/produktDetail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
         </state>
       </provider>
     </entry>

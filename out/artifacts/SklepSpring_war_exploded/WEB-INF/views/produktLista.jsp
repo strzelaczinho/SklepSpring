@@ -1,4 +1,6 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <%@include file="/WEB-INF/views/template/header.jsp"%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
@@ -18,6 +20,7 @@
                 <th>Kategoria</th>
                 <th>Stan Produktu</th>
                 <th>Cena</th>
+                <th>Szczegóły</th>
             </tr>
             </thead>
             <c:forEach items="${produkty}" var="product">
@@ -27,6 +30,7 @@
                     <td>${product.kategoriaProduktu}</td>
                     <td>${product.stanProduktu}</td>
                     <td>${product.cenaProduktu} USD</td>
+                    <td><a href="<spring:url value="/productList/viewProdukt/${product.produktId}"/>"><span class="glyphicon glyphicon-edit"></span></a></td>
                 </tr>
             </c:forEach>
         </table>

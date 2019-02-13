@@ -1,6 +1,16 @@
 package adam.projekty.model;
 public class Produkt {
 
+    private String produktId;
+
+    public String getProduktId() {
+        return produktId;
+    }
+
+    public void setProduktId(String produktId) {
+        this.produktId = produktId;
+    }
+
     private String nazwaProduktu;
     private String kategoriaProduktu;
     private String OpisProduktu;

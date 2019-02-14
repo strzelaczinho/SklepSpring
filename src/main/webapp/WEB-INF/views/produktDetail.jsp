@@ -12,21 +12,24 @@
         </div>
 
         <%--Grid system https://getbootstrap.com/docs/4.0/layout/grid/--%>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-5">
-                    <img src="#" alt="image" style="width: 100%; height: 300px; "/>
-                </div>
 
 
-                    <div class="col-md-5">
+         <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="<c:url value="/resources/images/${produkt.produktId}.png" /> " alt="image"
+                                 style="width:100%"/>
+                        </div>
+
+                 <div class="col-md-5">
+
                         <h3>${produkt.nazwaProduktu}</h3>
                         <p>${produkt.opisProduktu}</p>
                         <p> <strong>Wykonawca</strong> : ${produkt.wykonawcaProduktu}</p>
                         <p><strong>Kategoria</strong> : ${produkt.kategoriaProduktu}</p>
                         <p><strong>Stan</strong> : ${produkt.stanProduktu}</p>
                         <h4>${produkt.cenaProduktu} USD</h4>
-                    </div>
+                </div>
             </div>
         </div>
 

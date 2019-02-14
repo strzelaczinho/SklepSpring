@@ -1,6 +1,14 @@
 package adam.projekty.model;
+
+import org.springframework.web.multipart.MultipartFile;
+
+import javax.persistence.*;
+
+@Entity
 public class Produkt {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO) //productId generowany automatycznie
     private String produktId;
 
     public String getProduktId() {
@@ -19,6 +27,18 @@ public class Produkt {
     private String StatusProduktu;
     private int IloscWMagazynie;
     private String WykonawcaProduktu;
+
+
+    @Transient
+    private MultipartFile productImage; //obiekt nie nalezy do Pojo :) dlatego transient przechowuje go w images:)
+
+    public MultipartFile getProductImage() {
+        return productImage;
+    }
+
+    public void setProductImage(MultipartFile productImage) {
+        this.productImage = productImage;
+    }
 
     public String getNazwaProduktu() {
         return nazwaProduktu;

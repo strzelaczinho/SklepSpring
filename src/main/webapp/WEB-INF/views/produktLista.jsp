@@ -1,9 +1,8 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
-<%@include file="/WEB-INF/views/template/header.jsp"%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-
+<%@include file="/WEB-INF/views/template/header.jsp"%>
 <div class="container-wrapper">
     <div class="container">
         <div class="page-header">
@@ -25,7 +24,7 @@
             </thead>
             <c:forEach items="${produkty}" var="product">
                 <tr>
-                    <td><img src="#" alt="image"/></td>
+                    <td><img src="<c:url value="/resources/images/${product.produktId}.png" /> " alt="image" style="width:50px;"/></td>
                     <td>${product.nazwaProduktu}</td>
                     <td>${product.kategoriaProduktu}</td>
                     <td>${product.stanProduktu}</td>
